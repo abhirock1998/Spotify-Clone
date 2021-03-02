@@ -3,7 +3,7 @@ export const authPoint = "https://accounts.spotify.com/authorize";
 
 const redirectUri =
   process.env.NODE_ENV === "production"
-    ? "https://spotify-28b81.firebaseapp.com/"
+    ? "https://spotify-28b81.web.app/"
     : "http://localhost:3000/";
 const clientId = "cc96896b1c2e4ff98d33ff68da337d8f";
 
